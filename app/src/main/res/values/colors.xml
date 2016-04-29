@@ -11,4 +11,6 @@
     <color name="line_grey">#D7D7D7</color>
     <color name="black_87pc">#DD000000</color>
     <color name="scrim">#99323232</color>
+    <color name="red">#ffff0000</color>
+    <color name="opacity_accent">#2000BCD4</color>
 </resources>

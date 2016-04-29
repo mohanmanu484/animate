@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_root"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/SelectableItemBackground"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/view1root"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/SelectableItemBackground">
+        <View
+            android:id="@+id/view1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@color/opacity_accent"
+             />
+    </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/view3root"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/SelectableItemBackground"
+            android:background="?android:attr/selectableItemBackgroundBorderless">
+            <View
+                android:id="@+id/view3"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@color/opacity_accent"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@color/opacity_accent"
+        style="@style/SelectableItemBackground"
+        />
+
+</LinearLayout>

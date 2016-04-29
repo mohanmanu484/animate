@@ -18,6 +18,10 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".ui.activity.TouchFeedBackActivity"
+            android:label="@string/label_touch_feedback"
+            android:theme="@style/AppTheme.ActionBar"/>
+
         <activity android:name=".ui.activity.AnimatedVectorDrawablesActivity"
                   android:label="@string/label_animated_vector_drawables"
                   android:theme="@style/AppTheme.ActionBar"/>

@@ -12,6 +12,7 @@
     <string name="label_window_content_transitions">Window Content</string>
     <string name="label_animated_vector_drawables">Animated Vectors</string>
     <string name="label_interpolators">Interpolators</string>
+    <string name="label_touch_feedback">Touch Feedback</string>
 
     <!-- View Property Animator Activity -->
     <string name="text_title_interpolator">Interpolator</string>
@@ -96,6 +97,7 @@
         <item>Window Content Transitions</item>
         <item>Shared Element Transitions</item>
         <item>Animated Vector Drawables</item>
+        <item>Touch Feedback</item>
     </string-array>
 
     <string-array name="items">

@@ -68,6 +68,9 @@ public class MainActivity extends BaseActivity {
                             intent = new Intent(
                                     MainActivity.this, AnimatedVectorDrawablesActivity.class);
                             break;
+                        case 9:
+                            intent = new Intent(MainActivity.this, TouchFeedBackActivity.class);
+                            break;
                     }
                     if (intent != null) startActivity(intent);
                 }
