@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.transition.Fade;
 import android.transition.Scene;
 import android.transition.Transition;
+import android.transition.TransitionInflater;
 import android.transition.TransitionManager;
 import android.util.Log;
 import android.widget.FrameLayout;
@@ -31,16 +32,30 @@ public class ScenesTransitionActivity extends BaseActivity {
 
     @OnClick(R.id.fab_button)
     public void startTransition() {
-        Log.e("Scene", "start Transition");
+        Log.d("Scene", "start Transition");
         Scene aScene = Scene.getSceneForLayout(mSceneRoot, R.layout.a_scene, this);
         Scene bScene = Scene.getSceneForLayout(mSceneRoot, R.layout.b_scene, this);
 
-        Transition fede = new Fade(Fade.IN);
-        //mSceneRoot.removeAllViews();
+        aScene.setEnterAction(new Runnable() {
+            @Override
+            public void run() {
+                Log.d("Scene", "Enter A Scene");
+            }
+        });
+
+        aScene.setExitAction(new Runnable() {
+            @Override
+            public void run() {
+                Log.d("Scene", "Exit A Scene");
+            }
+        });
+
+        Transition multi = TransitionInflater.from(this).inflateTransition(R.transition.multi_transition);
+
         if (mShowingAScene) {
-            TransitionManager.go(bScene, fede);
+            TransitionManager.go(bScene, multi);
         } else {
-            TransitionManager.go(aScene, fede);
+            TransitionManager.go(aScene, multi);
         }
 
         mShowingAScene = !mShowingAScene;
