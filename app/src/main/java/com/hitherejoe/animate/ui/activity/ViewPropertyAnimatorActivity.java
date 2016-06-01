@@ -44,7 +44,7 @@ public class ViewPropertyAnimatorActivity extends BaseActivity {
     @Bind(R.id.check_animation_delay)
     CheckBox mAnimationDelayCheck;
 
-    @Bind(R.id.fab_smile)
+    @Bind(R.id.fab_button)
     FloatingActionButton mSmileButton;
 
     @Bind(R.id.spinner_interpolators)

@@ -120,7 +120,7 @@
                 android:textColor="@android:color/holo_red_light"/>
 
             <android.support.design.widget.FloatingActionButton
-                android:id="@+id/fab_smile"
+                android:id="@+id/fab_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"

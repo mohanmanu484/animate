@@ -71,7 +71,11 @@ public class MainActivity extends BaseActivity {
                         case 9:
                             intent = new Intent(MainActivity.this, TouchFeedBackActivity.class);
                             break;
+                        case 10:
+                            intent = new Intent(MainActivity.this, ScenesTransitionActivity.class);
+                            break;
                     }
+
                     if (intent != null) startActivity(intent);
                 }
     };
