@@ -74,6 +74,9 @@ public class MainActivity extends BaseActivity {
                         case 10:
                             intent = new Intent(MainActivity.this, ScenesTransitionActivity.class);
                             break;
+                        case 11:
+                            intent = new Intent(MainActivity.this, ViewPageTransformerActivity.class);
+                            break;
                     }
 
                     if (intent != null) startActivity(intent);

@@ -77,12 +77,11 @@
             android:name=".ui.activity.WindowTransitionsActivityExplode"
             android:label="@string/label_explode_window_content_transitions"
             android:theme="@style/AppTheme.ExplodeContent" />
-
-        <activity android:name=".ui.activity.ScenesTransitionActivity"
+        <activity
+            android:name=".ui.activity.ScenesTransitionActivity"
             android:label="Scenes Transition"
-            android:theme="@style/AppTheme.ActionBar">
-
-        </activity>
+            android:theme="@style/AppTheme.ActionBar"></activity>
+        <activity android:name=".ui.activity.ViewPageTransformerActivity"></activity>
     </application>
 
 </manifest>

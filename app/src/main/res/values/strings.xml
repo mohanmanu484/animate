@@ -99,6 +99,7 @@
         <item>Animated Vector Drawables</item>
         <item>Touch Feedback</item>
         <item>Scene Transition</item>
+        <item>ViewPager transformer</item>
     </string-array>
 
     <string-array name="items">
