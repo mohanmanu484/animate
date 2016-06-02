@@ -65,6 +65,11 @@
     <!-- Content Descriptions -->
     <string name="content_description_image_header">Image header</string>
     <string name="content_description_image_smile_emoticon">Smile emotion</string>
+    <string name="description_image_1">image one</string>
+    <string name="card_back_title">card back title</string>
+    <string name="card_back_description">Bla Bal Bla Bla Bla</string>
+    <string name="action_photo">Photo</string>
+    <string name="action_info">Info</string>
 
     <string-array name="interpolators">
         <item>None</item>
@@ -100,6 +105,7 @@
         <item>Touch Feedback</item>
         <item>Scene Transition</item>
         <item>ViewPager transformer</item>
+        <item>Fragment Animation, CardFlip</item>
     </string-array>
 
     <string-array name="items">

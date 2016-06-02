@@ -80,8 +80,9 @@
         <activity
             android:name=".ui.activity.ScenesTransitionActivity"
             android:label="Scenes Transition"
-            android:theme="@style/AppTheme.ActionBar"></activity>
-        <activity android:name=".ui.activity.ViewPageTransformerActivity"></activity>
+            android:theme="@style/AppTheme.ActionBar" />
+        <activity android:name=".ui.activity.ViewPageTransformerActivity" />
+        <activity android:name=".ui.activity.CardFlipActivity"></activity>
     </application>
 
 </manifest>

@@ -77,6 +77,9 @@ public class MainActivity extends BaseActivity {
                         case 11:
                             intent = new Intent(MainActivity.this, ViewPageTransformerActivity.class);
                             break;
+                        case 12:
+                            intent = new Intent(MainActivity.this, CardFlipActivity.class);
+                            break;
                     }
 
                     if (intent != null) startActivity(intent);
