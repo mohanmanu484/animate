@@ -83,6 +83,9 @@ public class MainActivity extends BaseActivity {
                         case 13:
                             intent = new Intent(MainActivity.this, ZoomActivity.class);
                             break;
+                        case 14:
+                            intent = new Intent(MainActivity.this, LayoutTransitionActivity.class);
+                            break;
                     }
 
                     if (intent != null) startActivity(intent);

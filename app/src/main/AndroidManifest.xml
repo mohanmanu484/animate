@@ -83,7 +83,10 @@
             android:theme="@style/AppTheme.ActionBar" />
         <activity android:name=".ui.activity.ViewPageTransformerActivity" />
         <activity android:name=".ui.activity.CardFlipActivity" />
-        <activity android:name=".ui.activity.ZoomActivity"></activity>
+        <activity android:name=".ui.activity.ZoomActivity" />
+        <activity android:name=".ui.activity.LayoutTransitionActivity"
+                android:theme="@style/AppTheme.ActionBar">
+        </activity>
     </application>
 
 </manifest>

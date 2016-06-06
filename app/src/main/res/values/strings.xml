@@ -73,6 +73,9 @@
     <string name="message_zoom_touch_expand">Touch a photo to expand it.</string>
     <string name="description_zoom_touch_close">Expanded image (touch to close)</string>
     <string name="description_image_2">image 2</string>
+    <string name="message_empty_layout_changes">Add an item above to get started.</string>
+    <string name="action_add_item">Add Item</string>
+    <string name="action_remove_item">remove item</string>
 
     <string-array name="interpolators">
         <item>None</item>
@@ -110,6 +113,7 @@
         <item>ViewPager transformer</item>
         <item>Fragment Animation, CardFlip</item>
         <item>Zoom Effect</item>
+        <item>Layout Transition</item>
     </string-array>
 
     <string-array name="items">

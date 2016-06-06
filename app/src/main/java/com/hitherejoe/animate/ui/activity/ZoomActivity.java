@@ -4,7 +4,6 @@ import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
-import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Point;
 import android.graphics.Rect;
@@ -17,7 +16,7 @@ import android.widget.ImageView;
 
 import com.hitherejoe.animate.R;
 
-public class ZoomActivity extends Activity {
+public class ZoomActivity extends BaseActivity {
     /**
      * Hold a reference to the current animator, so that it can be canceled mid-way.
      */
